@@ -40,17 +40,17 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Buxton Sketch", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Blue;
             this.label1.Location = new System.Drawing.Point(59, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(183, 43);
+            this.label1.Size = new System.Drawing.Size(225, 39);
             this.label1.TabIndex = 0;
             this.label1.Text = "Mouse Maze";
             // 
             // lblStart
             // 
-            this.lblStart.Font = new System.Drawing.Font("Buxton Sketch", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblStart.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblStart.ForeColor = System.Drawing.Color.Blue;
             this.lblStart.Location = new System.Drawing.Point(87, 93);
             this.lblStart.Name = "lblStart";
@@ -64,7 +64,7 @@
             // 
             // lblScores
             // 
-            this.lblScores.Font = new System.Drawing.Font("Buxton Sketch", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblScores.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblScores.ForeColor = System.Drawing.Color.Blue;
             this.lblScores.Location = new System.Drawing.Point(99, 139);
             this.lblScores.Name = "lblScores";
@@ -78,7 +78,7 @@
             // 
             // lblExit
             // 
-            this.lblExit.Font = new System.Drawing.Font("Buxton Sketch", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblExit.ForeColor = System.Drawing.Color.Blue;
             this.lblExit.Location = new System.Drawing.Point(109, 222);
             this.lblExit.Name = "lblExit";
@@ -92,7 +92,7 @@
             // 
             // lblInfo
             // 
-            this.lblInfo.Font = new System.Drawing.Font("Buxton Sketch", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblInfo.ForeColor = System.Drawing.Color.Blue;
             this.lblInfo.Location = new System.Drawing.Point(99, 182);
             this.lblInfo.Name = "lblInfo";
@@ -106,7 +106,7 @@
             // 
             // lblInformation
             // 
-            this.lblInformation.Font = new System.Drawing.Font("Buxton Sketch", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInformation.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblInformation.ForeColor = System.Drawing.Color.Blue;
             this.lblInformation.Location = new System.Drawing.Point(39, 67);
             this.lblInformation.Name = "lblInformation";
@@ -120,7 +120,7 @@
             // 
             // lblBack
             // 
-            this.lblBack.Font = new System.Drawing.Font("Buxton Sketch", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBack.ForeColor = System.Drawing.Color.Blue;
             this.lblBack.Location = new System.Drawing.Point(120, 277);
             this.lblBack.Name = "lblBack";
