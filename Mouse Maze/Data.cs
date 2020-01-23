@@ -2,12 +2,13 @@
 using System.IO;
 using System.Security.Cryptography;
 using System.Text;
+using System.Reflection;
 
 namespace Mouse_Maze
 {
     public static class Data
     {
-        private const string stats = @"C:\Program Files\MouseMaze\MMStats.txt";
+        private static string stats = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location) + "\\MMStats.txt";
         private static bool[] complete = new bool[21];
         private static string[] time = new string[21];
         private static readonly string[] parTimes = { null, "040", "120", "400", "620", "300", "460", "600", "1000", "800", "260" };
@@ -21,11 +22,6 @@ namespace Mouse_Maze
         private const string passKey = "jdk38d47fhj8dh3";
 
 
-
-        public static void createStatsFile(string fileName)
-        {
-            File.Create(fileName).Dispose();
-        }
         public static void Load_Data()
         {
             isLoaded = true;
@@ -58,12 +54,11 @@ namespace Mouse_Maze
 
                     hardcore = reader.ReadLine() == "true";
 
-                    hardcoreSelected = reader.ReadLine() == "true"; 
+                    hardcoreSelected = reader.ReadLine() == "true";
                 }
             }
 
         }
-
         public static void WriteData()
         {
             var update = "";
@@ -131,6 +126,11 @@ namespace Mouse_Maze
             return parTimes[i];
         }
 
+        public static void createStatsFile(string fileName)
+        {
+            File.Create(fileName).Dispose();
+        }
+
         public static void Reset()
         {
             isLoaded = false;
@@ -139,7 +139,7 @@ namespace Mouse_Maze
             {
                 complete[i] = false;
                 time[i] = "99999";
-                initial += "flase\r\n99999\r\n";
+                initial += "false\r\n99999\r\n";
             }
             var temp = Encrypt(initial, passKey);
             File.WriteAllText(stats, temp);
